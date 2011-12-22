@@ -4507,3 +4507,6 @@ FATAL Error: /home/geneks/www/eccube-2.11.2/data/class/SC_Display.php:115 Call t
 2011/12/14 10:52:58 [/eccube-2.11.2/html/index.php] PAGE_DISPLAY_TIME_LOG [2.19sec] from 61.45.46.92
 2011/12/14 10:59:48 [/eccube-2.11.2/html/solt/basis/index.php] access error. from 121.1.207.10
 2011/12/18 00:44:59 [/eccube-2.11.2/html/index.php] PAGE_DISPLAY_TIME_LOG [2.15sec] from 121.114.27.34
+FATAL Error: /home/geneks/www/eccube-2.11.2/data/class/pages/LC_Page.php:88 Call to undefined function str_pos()
+FATAL Error: /home/geneks/www/eccube-2.11.2/data/class/pages/LC_Page.php:88 Call to undefined function str_pos()
+FATAL Error(256) /home/geneks/www/eccube-2.11.2/data/module/Smarty/libs/Smarty.class.php:1093 Smarty error: [in /home/geneks/www/eccube-2.11.2/html/../data/Smarty/templates/default/index.tpl line 47]: syntax error: unrecognized tag '/else' (Smarty_Compiler.class.php, line 590)FATAL Error(256) /home/geneks/www/eccube-2.11.2/data/module/Smarty/libs/Smarty.class.php:1093 Smarty error: [in /home/geneks/www/eccube-2.11.2/html/../data/Smarty/templates/default/index.tpl line 47]: syntax error: unrecognized tag '/else' (Smarty_Compiler.class.php, line 590)

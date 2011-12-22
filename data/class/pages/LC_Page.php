@@ -84,6 +84,9 @@ class LC_Page {
      * @return void
      */
     function init() {
+        
+        $this->isIE = ( strpos( $this->browser_class(), 'msie' ) !== false )? true: false;
+        
         // 開始時刻を設定する。
         $this->timeStart = SC_Utils_Ex::sfMicrotimeFloat();
 
@@ -396,6 +399,49 @@ class LC_Page {
      */
     function p($val) {
         SC_Utils_Ex::sfPrintR($val);
+    }
+    
+    function browser_class(){
+        $classes = "";
+        $agent = getenv( "HTTP_USER_AGENT" );
+     
+        if(strstr($agent,"MSIE")){
+            $classes .= "msie ";
+            if(strstr($agent,"MSIE 6.0")) $classes .= "ie6 lt7 lt8 lt9";
+            if(strstr($agent,"MSIE 7.0")) $classes .= "gt6 ie7 lt8 lt9";
+            if(strstr($agent,"MSIE 8.0")) $classes .= "gt6 gt7 ie8 lt9";
+            if(strstr($agent,"MSIE 9.0")) $classes .= "gt6 gt7 gt8 ie9";
+        }
+        else {
+            $classes .= "noie ";
+            if( strstr($agent,"Firefox")) {
+                $classes .= "firefox gecko";
+            }
+            elseif( strstr($agent,"Safari")) {
+                $classes .= "safari webkit";
+            }
+            elseif( strstr($agent,"Chrome")) {
+                $classes .= "Chrome webkit";
+            }
+            elseif( strstr($agent,"Opera")) {
+                $classes .= "opera presto";
+            }
+            //ここからは気休め。
+            //AppleWebKit/534.30 (KHTML, like Gecko) なので先に記述
+            elseif( stristr($agent,"WebKit")) {
+                $classes .= "webkit";
+            }
+            //AppleWebKit/534.30 (KHTML, like Gecko) なので先に記述
+            elseif( stristr($agent,"KHTML")) {
+                $classes .= "khtml";
+            }
+            elseif(stristr($agent,"Gecko")) {
+                $classes .= "gecko";
+            }else {
+                $classes .= "other";
+            }
+        }
+        return $classes;
     }
 }
 ?>
