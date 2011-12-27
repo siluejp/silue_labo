@@ -4509,4 +4509,27 @@ FATAL Error: /home/geneks/www/eccube-2.11.2/data/class/SC_Display.php:115 Call t
 2011/12/18 00:44:59 [/eccube-2.11.2/html/index.php] PAGE_DISPLAY_TIME_LOG [2.15sec] from 121.114.27.34
 FATAL Error: /home/geneks/www/eccube-2.11.2/data/class/pages/LC_Page.php:88 Call to undefined function str_pos()
 FATAL Error: /home/geneks/www/eccube-2.11.2/data/class/pages/LC_Page.php:88 Call to undefined function str_pos()
-FATAL Error(256) /home/geneks/www/eccube-2.11.2/data/module/Smarty/libs/Smarty.class.php:1093 Smarty error: [in /home/geneks/www/eccube-2.11.2/html/../data/Smarty/templates/default/index.tpl line 47]: syntax error: unrecognized tag '/else' (Smarty_Compiler.class.php, line 590)FATAL Error(256) /home/geneks/www/eccube-2.11.2/data/module/Smarty/libs/Smarty.class.php:1093 Smarty error: [in /home/geneks/www/eccube-2.11.2/html/../data/Smarty/templates/default/index.tpl line 47]: syntax error: unrecognized tag '/else' (Smarty_Compiler.class.php, line 590)
+FATAL Error(256) /home/geneks/www/eccube-2.11.2/data/module/Smarty/libs/Smarty.class.php:1093 Smarty error: [in /home/geneks/www/eccube-2.11.2/html/../data/Smarty/templates/default/index.tpl line 47]: syntax error: unrecognized tag '/else' (Smarty_Compiler.class.php, line 590)FATAL Error(256) /home/geneks/www/eccube-2.11.2/data/module/Smarty/libs/Smarty.class.php:1093 Smarty error: [in /home/geneks/www/eccube-2.11.2/html/../data/Smarty/templates/default/index.tpl line 47]: syntax error: unrecognized tag '/else' (Smarty_Compiler.class.php, line 590)FATAL Error: /home/geneks/www/eccube-2.11.2/html/frontparts/bloc/login_header.php:26 require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/geneks/www/eccube-2.11.2/html/../data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_LoginHeader_Ex.php' (include_path='/home/geneks/www/eccube-2.11.2/data/module')
+FATAL Error: /home/geneks/www/eccube-2.11.2/html/frontparts/bloc/login_header.php:26 require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/geneks/www/eccube-2.11.2/html/../data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_LoginHeader_Ex.php' (include_path='/home/geneks/www/eccube-2.11.2/data/module')
+2011/12/27 12:51:56 [/eccube-2.11.2/html/solt/index.php] access error. from 221.113.3.184
+2011/12/27 12:51:56 [/eccube-2.11.2/html/solt/index.php] login: user=watwat(3) auth=1 lastlogin=2011-12-12 12:27:26 sid= from 221.113.3.184
+2011/12/27 12:51:57 [/eccube-2.11.2/html/solt/home.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:03 [/eccube-2.11.2/html/solt/basis/payment.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:05 [/eccube-2.11.2/html/solt/basis/payment_input.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:09 [/eccube-2.11.2/html/solt/basis/payment_input.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:10 [/eccube-2.11.2/html/solt/basis/payment.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:13 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:15 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:32 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:36 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:40 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:43 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:46 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:50 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:54 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:52:57 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:53:00 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:53:03 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:53:06 [/eccube-2.11.2/html/solt/order/index.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:53:12 [/eccube-2.11.2/html/solt/basis/mail.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
+2011/12/27 12:53:14 [/eccube-2.11.2/html/solt/basis/mail.php] access : user=watwat auth=1 sid=235eab161b93df8124bb7f670a3cb2d4 from 221.113.3.184
